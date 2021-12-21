@@ -5,9 +5,9 @@ const CACHE_NAME = 'static-cache-v9';
 
 // CODELAB: Add list of files to cache here.
 const FILES_TO_CACHE = [
-  './Tetris2/offline.html',
-  './Tetris2/index.html',
-  './Tetris2/install.js'
+  './offline.html',
+  './index.html',
+  './install.js'
 ];
 
 self.addEventListener('install', (evt) => {
